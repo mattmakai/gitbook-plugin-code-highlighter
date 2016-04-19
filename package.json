@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-code-highlighter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Highlight specific lines of code using a special string at the beginning of a line.",
   "main": "index.js",
   "engines": {
