@@ -1,5 +1,7 @@
 # gitbook-plugin-code-highlighter
-GitBook plugin to highlight specific lines in code blocks.
+[GitBook plugin](https://plugins.gitbook.com/) to highlight specific 
+lines in code blocks.
+
 
 ## Example
 Here are a couple of highlighted [Python](https://www.fullstackpython.com/) 
@@ -13,9 +15,10 @@ code lines using a yellow background:
    and the [gitbook-cli](https://github.com/GitbookIO/gitbook-cli) 
    installed.
 
-1. The default **highlight** plugin that is built into GitBook must be disabled,
-   as shown in the below example `book.json`. The default highlighter prevents 
-   other plugins from processing code blocks.
+1. The default **highlight** plugin that is built into GitBook must be 
+   disabled, because it prevents other plugins from processing code 
+   blocks. Here is an example `book.json` with the highlight plugin 
+   disabled and this code-highlighter plugin enabled.
 
         {
             "author": "Matthew Makai",
@@ -32,3 +35,23 @@ code lines using a yellow background:
 
 1. Run `gitbook install` to pull down 
    [the latest plugin version from NPM](https://www.npmjs.com/package/gitbook-plugin-code-highlighter).
+
+
+## How To Use After Installation
+Within a block code prepend `&&&` to each line that should be highlighted.
+Then add a `.code-line-highlight` property with a `background-color` to 
+the `.css` files under the `styles/` directory. 
+
+For example, your `styles/` directory can contain a `pdf.css` with this line:
+
+    .code-line-highlight {background-color: #ffff00;}
+
+That will highlight each selected line in yellow.
+
+For more information on styling, refer to the 
+[Gitbook docs](https://help.gitbook.com/styling/book.html).
+
+
+## More Information
+The `&&&` mark and the CSS class can be made configurable, but I have not 
+added that feature just yet. 
