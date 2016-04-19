@@ -15,22 +15,21 @@ module.exports = {
         highlighted_block = "";
         strs = block.body.split("\n");
         for (var i = 0; i < strs.length; i++) {
-            if (strs[i].length > mark_len && strs[i].substring(0, mark_len) == highlight_mark) {
-                // if marked for highlight, add span with highlight class
-                highlighted_block += '<span class="' + highlight_css_class + '">' 
-                highlighted_block += strs[i].substring(mark_len) + "</span>" + "\n";
-            } else {
-                highlighted_block += strs[i] + "\n";
-            }
+          if (strs[i].length > mark_len && strs[i].substring(0, mark_len) == highlight_mark) {
+            // if marked for highlight, add span with highlight class
+            highlighted_block += '<span class="' + highlight_css_class + '">' 
+            highlighted_block += strs[i].substring(mark_len) + "</span>" + "\n";
+          } else {
+            highlighted_block += strs[i] + "\n";
+          }
         }
         //console.log(block.body);
         //console.log(highlighted_block);
       } catch(e) {
-        console.warn('Failed to highlight:');
+      console.warn('Failed to highlight:');
         console.warn(e);
         highlighted_block = block.body;
       }
-
       return highlighted_block;
     }
   }
