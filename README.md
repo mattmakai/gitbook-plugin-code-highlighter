@@ -7,7 +7,7 @@ lines in code blocks.
 Here are a couple of highlighted [Python](https://www.fullstackpython.com/) 
 code lines using a yellow background:
  
-<img src="./docs/img/example-highlight.png">
+<img src="https://raw.githubusercontent.com/makaimc/gitbook-plugin-code-highlighter/master/docs/img/example-highlight.png">
 
 The above example was generated from these source lines:
 
