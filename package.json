@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-code-highlighter",
-  "version": "1.0.2",
-  "description": "A plugin to highlight specific lines of code using a delimiter at the beginning of a line.",
+  "version": "1.0.3",
+  "description": "Highlight specific lines of code using a special string at the beginning of a line.",
   "main": "index.js",
   "engines": {
     "gitbook": ">=2.0.0"

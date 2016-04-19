@@ -2,13 +2,10 @@ var highlight_mark = "&&&";
 var highlight_css_class = "code-line-highlight";
 
 module.exports = {
-  book: {},
-  ebook: {},
   blocks: {
     code: function(block) {
       // length is 3 if no custom mark is defined in plugins config
       var mark_len = highlight_mark.length;
-      console.log(block.body);
 
       // stores the line that may be highlighted
       var highlighted_block = '';
