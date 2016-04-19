@@ -1,0 +1,24 @@
+{
+  "name": "gitbook-plugin-code-highlighter",
+  "version": "1.0.0",
+  "description": "A plugin to highlight specific lines of code using a delimiter at the beginning of a line.",
+  "engines": {
+    "gitbook": ">=2.4.1"
+  },
+  "homepage": "https://github.com/makaimc/gitbook-plugin-code-highlighter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makaimc/gitbook-plugin-code-highlighter.git"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "mattmakai",
+    "email": "matthew.makai@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Matt Makai",
+      "email": "matthew.makai@gmail.com"
+    }
+  ]
+}
