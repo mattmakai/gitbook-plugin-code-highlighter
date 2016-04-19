@@ -4,8 +4,6 @@ var highlight_mark = "&&&";
 var highlight_css_class = "code-line-highlight";
 
 module.exports = {
-  book: assets,
-  ebook: assets,
   blocks: {
     code: function(block) {
       // length is 3 if no custom mark is defined in plugins config

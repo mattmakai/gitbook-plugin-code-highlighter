@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A plugin to highlight specific lines of code using a delimiter at the beginning of a line.",
   "engines": {
-    "gitbook": ">=2.4.1"
+    "gitbook": ">=2.0.0"
   },
   "homepage": "https://github.com/makaimc/gitbook-plugin-code-highlighter",
   "repository": {
