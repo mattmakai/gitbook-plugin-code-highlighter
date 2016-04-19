@@ -9,6 +9,15 @@ code lines using a yellow background:
  
 <img src="./docs/img/example-highlight.png">
 
+The above example was generated from these source lines:
+
+```python
+from os import environ
+&&&from fabric.api import *
+from fabric.context_managers import cd
+&&&from fabric.contrib.files import sed
+```
+
 
 ## Plugin Installation
 1. Make sure you have [GitBook](https://github.com/GitbookIO/gitbook) 
