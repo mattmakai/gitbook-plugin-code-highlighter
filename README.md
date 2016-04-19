@@ -59,7 +59,7 @@ For example, your `styles/` directory can contain a `pdf.css` with this line:
 That will highlight each selected line in yellow.
 
 For more information on styling, refer to the 
-[Gitbook docs](https://help.gitbook.com/styling/book.html).
+[GitBook docs](https://help.gitbook.com/styling/book.html).
 
 
 ## More Information
