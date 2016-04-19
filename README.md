@@ -11,12 +11,12 @@ code lines using a yellow background:
 
 The above example was generated from these source lines:
 
-```python
+\```python
 from os import environ
-\&&&from fabric.api import *
+&&&from fabric.api import *
 from fabric.context_managers import cd
-\&&&from fabric.contrib.files import sed
-```
+&&&from fabric.contrib.files import sed
+\```
 
 
 ## Plugin Installation
