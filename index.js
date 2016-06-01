@@ -18,9 +18,13 @@ module.exports = {
           if (strs[i].length > mark_len && strs[i].substring(0, mark_len) == highlight_mark) {
             // if marked for highlight, add span with highlight class
             highlighted_block += '<span class="' + highlight_css_class + '">' 
-            highlighted_block += strs[i].substring(mark_len) + "</span>" + "\n";
+            highlighted_block += strs[i].substring(mark_len) + "</span>";
           } else {
-            highlighted_block += strs[i] + "\n";
+            highlighted_block += strs[i];
+          }
+          // add newlines except on final line
+          if ((i+1) != strs.length) {
+            highlighted_block += "\n";
           }
         }
         //console.log(block.body);
